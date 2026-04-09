@@ -6,3 +6,6 @@ backend/Extra
 frontend/node_modules
 frontend/package-lock.json
 frontend/*.env.DS_Store
+.DS_Store
+.env
+node_modules/
