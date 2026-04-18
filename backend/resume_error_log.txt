@@ -1,0 +1,5 @@
+{
+  "message": "Invalid Signature b6ffff56fba8c45d360d15e648862b8acc88502a. String to sign - 'folder=CPMS/Resume&public_id=resume_gs_1776789902369_69e776547fa5d8a1e263bbb9.pdf&timestamp=1776789902'.",
+  "name": "Error",
+  "http_code": 401
+}
