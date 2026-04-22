@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo
+  namespace: cpms
+spec:
+  clusterIP: None  # Headless service (required for StatefulSet)
+  ports:
+    - port: 27017
+      targetPort: 27017
+  selector:
+    app: mongo
+
